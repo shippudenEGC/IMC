@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Calcular IMC</h1>
+	</div>
+	<div data-role="content">	
+		   <script language="JavaScript">
+function funcion(fechjl){
+fechjl = fechjl*fechjl;
+
+naped = fechjl;
+       
+}
+
+</script>		
+<script language="JavaScript">
+function funciones(fechaf){
+		
+
+ednap = fechaf;
+
+}
+
+</script>
+  Peso(kg)
+<input type="number" name="cuadrgggo2" onblur="funciones(this.value)" />
+
+Estatura(Mts.)
+<input type="number" name="textfhgfgfghield" onblur="funcion(this.value)" />
+<FORM>
+<script language="JavaScript">
+function totalmk(cop,cad){
+	
+	var totalge=cad/cop;
+	if(totalge<18){
+		alert("Peso Bajo tu IMC Es: "+totalge);
+	}
+	else
+	{
+		if((totalge>18)&&(totalge<24.9))
+		{
+			alert("Peso Normal tu IMC Es: "+totalge);
+		}
+		else
+		{
+			if((totalge>25)&&(totalge<26.9))
+		{
+			alert("Sobrepeso tu IMC Es: "+totalge);
+		}
+		else
+		{
+			if(totalge>27)
+		{
+			alert("Obesidad tu IMC Es: "+totalge);
+		}		}
+		}
+		
+	}
+	
+	
+	
+	
+	
+
+	
+}
+
+</script>
+<input name="buhhhhtton7" type="button" onclick="totalmk(naped,ednap)"value="Calcular IMC" />
+</FORM>
+
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+</body>
+</html>
